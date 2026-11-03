@@ -1,0 +1,127 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+pythonv/
+
+# ==========================================
+# UV / Python Packaging
+# ==========================================
+# Keep .python-version and uv.lock committed
+# Do not ignore pyproject.toml or uv.lock
+
+# ==========================================
+# Node.js
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.next/
+.serverless/
+.fusebox/
+.dynamodb/
+out/
+coverage/
+.nyc_output/
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Operating System
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Testing and Coverage
+# ==========================================
+.pytest_cache/
+.tox/
+.nox/
+.cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# ==========================================
+# Logs and Temporary Files
+# ==========================================
+*.log
+temp/
+tmp/
+
+# ==========================================
+# Databases and Vector Stores
+# ==========================================
+chroma_db/
+vector_store/
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# Generated Audio / Video
+# ==========================================
+*.wav
+*.mp3
+*.mp4
+
+# ==========================================
+# Model Artifacts
+# ==========================================
+*.pt
+*.pth
+*.onnx
+*.safetensors
